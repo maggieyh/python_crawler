@@ -16,7 +16,7 @@ else:
         sp = BeautifulSoup(tmp.text).find_all("span", class_ = "article-meta-value")
         for j in sp:
             print(j.text)
-        print(BeautifulSoup(tmp.text).find("div", id = ))
+        print(BeautifulSoup(tmp.text).find("div"))
         print('-------------------------')
        
 # text = r.text
